@@ -110,9 +110,10 @@ export const FormGroupRow = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-
+  
   @media(max-width: 992px) {
     grid-template-columns: 1fr;
+    grid-gap: 0px;
   }
 `
 export const DropItemTitle = styled.h5`
